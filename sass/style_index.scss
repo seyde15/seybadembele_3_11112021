@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+@media screen and (max-width: 600px)
+/*GENERAL GENERAL GENERAL GENERAL GENERAL*/
+/*COULEURS*/
+$couleur-primaire: #9356DC;
+$couleur-secondaire: #FF79DA;
+$couleur-tertiaire: #99E2D0;
+/*POSITIONNEMENT*/
+@mixin flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
