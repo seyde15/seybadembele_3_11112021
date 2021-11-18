@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 600px){
 /*GENERAL GENERAL GENERAL GENERAL GENERAL*/
 /*COULEURS*/
 $couleur-primaire: #9356DC;
@@ -23,4 +23,8 @@ $couleur-tertiaire: #99E2D0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
 }
