@@ -24,7 +24,12 @@ $couleur-tertiaire: #99E2D0;
     justify-content: center;
     align-items: center;
 }
-
+/*DIMENSION*/
+@mixin imgResto {
+    width: 100px;
+    height: 70px;
+    }
+    
 
 
 }
