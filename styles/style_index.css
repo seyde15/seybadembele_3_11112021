@@ -1,12 +1,25 @@
-body {
-  font-family: "Roboto", sans-serif;
+/*POSITIONNEMENT*/
+/*COULEURS*/
+/*POSITIONNEMENTS*/
+.header {
+  font-family: "Shrikhand", cursive;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  /*GENERAL GENERAL GENERAL GENERAL GENERAL*/
-  /*COULEURS*/
-  /*POSITIONNEMENT*/
-  /*DIMENSION*/
+.localisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+}
+
+.image1 {
+  width: 200px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style_index.css.map */

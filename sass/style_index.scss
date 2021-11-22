@@ -1,35 +1,27 @@
-body{
-    font-family: 'Roboto', sans-serif;
+@import "utils/mixins.scss";
+@import "utils/variable.scss";
+
+
+
+.header {
     
+    font-family: 'Shrikhand', cursive;
+    height: 80px;
+    @include flexCentre;
+    width: 100%;
 }
-@media screen and (max-width: 600px){
-/*GENERAL GENERAL GENERAL GENERAL GENERAL*/
-/*COULEURS*/
-$couleur-primaire: #9356DC;
-$couleur-secondaire: #FF79DA;
-$couleur-tertiaire: #99E2D0;
-/*POSITIONNEMENT*/
-@mixin flexAround{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-@mixin flexBetween{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-@mixin flexCentre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*DIMENSION*/
-@mixin imgResto {
-    width: 100px;
-    height: 70px;
+.localisation {
+    
+    @include flexCentre;
+    background-color: greenyellow;
     }
+
+.image1{
+    width: 200px;
+    height: 100px;
+}
+
+
     
 
 
-}
