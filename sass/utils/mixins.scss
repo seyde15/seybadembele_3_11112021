@@ -14,3 +14,19 @@
     justify-content: center;
     align-items: center;
 }
+/*BOUTON*/
+@mixin bouton {
+    opacity: 1;
+    background:  linear-gradient(180deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    color: white;
+    padding: 0 20px;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);  
+}
+
+    @mixin bouton-hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);    
+}

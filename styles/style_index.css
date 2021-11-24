@@ -1,6 +1,11 @@
 /*POSITIONNEMENT*/
+/*BOUTON*/
 /*COULEURS*/
 /*POSITIONNEMENTS*/
+body {
+  font-family: "roboto", sans-serif;
+}
+
 .header {
   font-family: "Shrikhand", cursive;
   height: 80px;
@@ -10,16 +15,54 @@
   width: 100%;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .localisation {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: greenyellow;
+  background-color: #F3F3F3;
+  color: #7A7A7A;
+  width: 100%;
+}
+.localisation_ville {
+  margin-left: 13px;
+  font-weight: bold;
 }
 
-.image1 {
-  width: 200px;
-  height: 100px;
+/*EXPLORATION*/
+.exploration {
+  background-color: #FAFAFA;
+  width: 100%;
+}
+.exploration_bloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  flex-direction: column;
+}
+.exploration_titre {
+  text-align: center;
+  max-width: 250px;
+  margin: 0;
+}
+.exploration_texte {
+  text-align: center;
+}
+.exploration_bouton {
+  opacity: 1;
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  color: white;
+  padding: 0 20px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=style_index.css.map */

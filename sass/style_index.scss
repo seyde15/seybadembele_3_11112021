@@ -2,24 +2,56 @@
 @import "utils/variable.scss";
 
 
-
+body{
+    font-family: "roboto",sans-serif;
+}
 .header {
-    
     font-family: 'Shrikhand', cursive;
     height: 80px;
     @include flexCentre;
     width: 100%;
 }
-.localisation {
+.main{
+   @include flexCentre;
+   flex-direction: column;
     
-    @include flexCentre;
-    background-color: greenyellow;
-    }
-
-.image1{
-    width: 200px;
-    height: 100px;
 }
+.localisation {
+    @include flexCentre;
+    background-color: $couleur-background-localisation;
+    color: $couleur-texte-localisation;
+    width: 100%;
+    &_ville {
+        margin-left: 13px;
+        font-weight: bold;
+    }
+}
+/*EXPLORATION*/
+.exploration{
+    background-color: $couleur-background-exploration;
+    width: 100%;
+    &_bloc{
+        @include flexCentre;
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        
+    }
+    &_titre{
+        text-align: center;
+        max-width: 250px;
+        margin: 0;
+    }
+    &_texte{
+        text-align: center;
+    }
+    &_bouton{
+        @include bouton;
+
+    }
+}
+
+
 
 
     
