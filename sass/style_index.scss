@@ -136,7 +136,35 @@ body{
         background-size: cover;
         background-position: center;
 	    border-radius: 15px 15px 0 0;
-
+        display: flex;
+        justify-content: end;
+        object-fit: cover;
     }
+    &-nouveau{
+        background-color: $couleur-tertiaire;
+        width: 100px;
+        height: 35px;
+        @include flexCentre;
+        margin-top: 20px;
+        margin-right: 20px;
+        border-radius: 2px;
+        color: #1f9477;
+        font-weight: 550;
+    }
+}
+.restaurant_carte-info{
+    @include flexBetween;
+    margin: 15px;
+    background-color: white;
+    margin: 0px;
     
+
+    &-nom{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+    &-ville{
+    margin-top: 7px;
+    margin-left: 10px;
+}
 }

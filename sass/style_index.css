@@ -246,5 +246,58 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.restaurant_carte-nouveau {
+  background-color: #99E2D0;
+  width: 100px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 2px;
+  color: #1f9477;
+  font-weight: 550;
+}
+
+.restaurant_carte-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+  background-color: white;
+  margin: 0px;
+}
+
+.restaurant_carte-info-nom {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.restaurant_carte-info-ville {
+  margin-top: 7px;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style_index.css.map */
