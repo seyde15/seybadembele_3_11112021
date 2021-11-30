@@ -6,6 +6,11 @@ body {
   font-family: "roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*HEADER*/
 .header {
   font-family: "Shrikhand", cursive;
@@ -154,6 +159,10 @@ body {
 .restaurant_carte {
   width: 370px;
 }
+.restaurant_carte:hover {
+  transition: 0.5s;
+  transform: scale(1.02);
+}
 .restaurant_carte-image1 {
   width: 100%;
   height: 190px;
@@ -175,7 +184,7 @@ body {
   margin-top: 20px;
   margin-right: 20px;
   border-radius: 2px;
-  color: #1f9477;
+  color: #1b6150;
   font-weight: 550;
 }
 
